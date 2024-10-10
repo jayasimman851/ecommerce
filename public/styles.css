@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Matte Black background */
+    color: #f0f0f0; /* Light text for readability */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #0a1a2f; /* Dark blue for navbar */
+    border-bottom: 2px solid #ffcc00; /* Gold accent */
+  }
+  
+  .navbar-brand {
+    font-size: 1.75rem;
+    color: #ffcc00; /* Gold brand name */
+    font-weight: bold;
+  }
+  
+  .navbar .nav-link {
+    color: #f0f0f0 !important; /* Light text */
+    font-weight: 500;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #ffcc00 !important; /* Gold on hover */
+  }
+  
+  .container {
+    max-width: 900px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #1c1c1e; /* Slightly lighter black for content area */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  /* Home Page */
+  h1 {
+    font-size: 2.75rem;
+    color: #ffcc00; /* Gold for main heading */
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #c9c9c9; /* Light grey text for body content */
+    margin: 15px 0;
+  }
+  
+  .btn-primary {
+    background-color: #ffcc00; /* Gold button */
+    border-color: #ffcc00;
+    color: #0a1a2f; /* Dark blue text for contrast */
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ffdb4d;
+    border-color: #ffdb4d;
+  }
+  
+  /* Products Page */
+  .card {
+    margin: 20px 0;
+    background-color: #1f1f22; /* Darker matte background for cards */
+    border: 1px solid #ffcc00; /* Gold border for card */
+    color: #f0f0f0;
+    border-radius: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.4rem;
+    color: #ffcc00; /* Gold for product names */
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-text {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #c9c9c9;
+  }
+  
+  .btn-primary {
+    background-color: #0a1a2f; /* Dark blue buttons */
+    border-color: #0a1a2f;
+    color: #ffcc00; /* Gold text */
+  }
+  
+  .btn-primary:hover {
+    background-color: #142c46;
+    border-color: #142c46;
+    color: #ffdb4d;
+  }
+  
+  /* Cart Page */
+  .list-group-item {
+    background-color: #1f1f22; /* Dark background for cart items */
+    border-color: #ffcc00;
+    color: #f0f0f0;
+    font-size: 1.2rem;
+  }
+  
+  .btn-danger {
+    background-color: #d9534f; /* Red danger button */
+    border-color: #d9534f;
+    color: #f0f0f0;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c9302c;
+    border-color: #ac2925;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    color: #ffcc00; /* Gold for total price */
+  }
+  
+  /* Checkout Page */
+  h2 {
+    color: #ffcc00; /* Gold heading */
+  }
+  
+  .btn-primary {
+    background-color: #ffcc00;
+    border-color: #ffcc00;
+    color: #0a1a2f;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ffdb4d;
+    border-color: #ffdb4d;
+  }
+  
+  /* Footer (if you add one) */
+  footer {
+    background-color: #0a1a2f;
+    color: #f0f0f0;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
